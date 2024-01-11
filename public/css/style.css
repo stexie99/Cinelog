@@ -59,15 +59,17 @@ body.home {
   color: pink;
   text-shadow: 0 0 .1rem white;
   background-color: black;
-  background-image: url("https://live.staticflickr.com/65535/50243040877_a95ca8b6c8_k.jpg");
+  background-image: url("https://fraenkelgallery.com/wp-content/uploads/2023/09/SUG-226.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
   background-attachment: fixed;
   overflow: hidden;
+  
 }
 
 body.home h1 {
+  margin-top: 3em;
   color: #ed8d00;
   -webkit-text-stroke: 1px white;
 }
