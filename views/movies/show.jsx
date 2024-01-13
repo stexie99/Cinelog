@@ -18,12 +18,8 @@ function show(data) {
               <h1>{data.movie.title}</h1>
               <br />
               <p>
-                Directed by {data.movie.director}
+                {data.movie.year}, Directed by {data.movie.director}, {data.movie.genre}
               </p>
-              <p>
-              Release Year: {data.movie.year}
-              </p>
-              <p>Genre: {data.movie.genre}</p>
               <br />
               <div className="edits">
                 <a
